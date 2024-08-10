@@ -1,0 +1,174 @@
+/*  Header  */
+
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+header #logo-menu, header .search{
+    display: flex;
+    justify-content: center;
+}
+
+header #logo-menu img{
+    margin-left: 24px;
+}
+
+header .search{
+    width: 404px;
+    height: 40px;
+}
+
+header #search{
+    width: 348px;
+    height: auto;
+    border-radius: 0%;
+    border: 1px solid #CCCCCC
+}
+
+header #search-logo{
+    width: 57px;
+    height: auto;
+    border-radius: 0%;
+    border: 1px solid #CCCCCC
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 130px;
+    height: 34px;
+    gap: 24px;
+}
+
+#video, #notification-logo{
+    width: 24px;
+    height: 24px;
+}
+
+#avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/*  Main    */
+
+main{
+    background-color: #F9F9F9;
+    width: 100%;
+    padding-top: 26px;
+    display: flex;
+}
+
+.watching-video{
+    display: flex;
+    flex-direction: column;
+    width: 952px;
+    height: 746px;
+    margin-left: 75px;
+    gap: 16px;
+}
+
+#main-thumbnail{
+    width: 952px;
+    height: 537px;
+}
+
+#title{
+    font-size: 20px;
+    color: #000000;
+}
+
+.video-actions{
+    width: 902px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-actions #avatar-dio{
+    width: 42px;
+    height: 42px;
+}
+
+.name-subscribers{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 12px;
+}
+
+.sign-up{
+    background-color: #CC0000;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+    
+}
+
+.like, 
+.deslike,
+.share,
+.download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.like h2, 
+.deslike h2,
+.share h2,
+.download h2{
+    margin-left: 8px;
+}
+
+.description{
+    width: 510px;
+    height: 64px;
+}
+
+.recommended{
+    height: 938px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 25px;
+}
+
+.recommended .video{
+    display: flex;
+    flex-direction: row;    
+    gap: 16px;
+}
+
+.thumbnail img{
+    width: 160px;
+    height: 90px;
+}
+
+.thumbnail-info{
+    width: 196px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.thumbnail-views p, .thumbnail-info p{
+    font-size: 12px;
+    text-align: left;
+    display: flex;
+}
+
