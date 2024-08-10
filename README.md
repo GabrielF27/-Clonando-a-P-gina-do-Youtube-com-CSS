@@ -12,4 +12,6 @@ Este projeto é um clone da página de visualização de vídeos do YouTube, cri
 
 Praticar a conversão de layouts de design em código, focando na organização visual e no uso de Flexbox.
 
+## Preview
+
 ![Preview](assets/images/Prévia-do-Projeto.png)
