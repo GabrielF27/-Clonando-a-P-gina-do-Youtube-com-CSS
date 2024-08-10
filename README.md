@@ -1,1 +1,15 @@
-# -Clonando-a-P-gina-do-Youtube-com-CSS
+# TRILHA-CSS-Desafio-02-Clonando-a-Página-do-Youtube-com-CSS
+
+Este projeto é um clone da página de visualização de vídeos do YouTube, criado para estudo de HTML e CSS. A interface foi baseada em um design do Figma e recriada utilizando técnicas de layout com Flexbox.
+
+## Tecnologias Utilizadas
+
+- **HTML5** para a estrutura.
+- **CSS3** para estilização e layout responsivo.
+- **Figma** como base para o design.
+
+## Objetivo
+
+Praticar a conversão de layouts de design em código, focando na organização visual e no uso de Flexbox.
+
+![Preview](assets/images/Prévia-do-Projeto.png)
